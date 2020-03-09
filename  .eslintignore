@@ -1,0 +1,7 @@
+# Ignored directories
+node_modules/
+.next/
+
+# Ignore config files
+next.config.js
+postcss.config.js

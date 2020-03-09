@@ -1,0 +1,34 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply text-gray-800 leading-relaxed antialiased;
+}
+
+p {
+  @apply mb-5 font-light;
+}
+
+h1 {
+  @apply text-4xl mb-5;
+}
+
+h2 {
+  @apply text-xl mb-5 font-semibold;
+}
+
+h3 {
+  @apply text-lg mb-5 font-semibold;
+}
+
+a {
+  @apply text-blue-600 underline transition duration-500 ease-in-out;
+}
+
+a:hover {
+  @apply opacity-50;
+}
+/* purgecss end ignore */
+
+@tailwind utilities;
